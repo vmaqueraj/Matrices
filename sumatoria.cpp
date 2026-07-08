@@ -1,7 +1,7 @@
 // Sumatoria de los elementos de una matriz mxn
 
 #include <iostream>
-using namespace;
+using namespace std;
 
 int main (){
 	int n, m, s;
@@ -12,9 +12,11 @@ int main (){
 	for (int i=0; i<m; i++){
 		for (int j=0; j<n; j++){
 			cin >> A[i][j];
-
+			s = s + A[i][j];
 		}
 	}
+	
+	cout << s;
 	
 	return 0;
 }

@@ -15,7 +15,11 @@ int main () {
 		}
 	}
 	
+	for (int i=0; i<n; i++){
+		s = s + A[i][i];
+	}
 	
+	cout << s;
 	
 	return 0;
 }
